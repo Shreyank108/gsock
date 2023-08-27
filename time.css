@@ -1,0 +1,130 @@
+*{ 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+html,body{ 
+    height: 100%;
+    width: 100%;
+}
+#main{ 
+    width: 100vw;
+}
+#page1{ 
+    height: 100vh;
+    width: 100vw; 
+    background-color: #1f1f1f;
+}
+#nav{
+    color: #BE9A76 ; 
+    width: 100vw; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 160px;
+    font-family: gilroy;
+    font-size: 20px;
+    font-weight: 500;
+}
+#nav span{ 
+    font-size: x-large;
+}
+#nav a{ 
+    text-decoration: none;
+    color: #BE9A76 ; 
+}
+#n1{ 
+    display: flex;
+    gap: 40px;
+}
+#n2{ 
+    display: flex;
+    gap: 40px;
+}
+#text{ 
+    margin-left: 200px;
+    margin-top: 200px;
+}
+#text h1{ 
+    color: #BE9A76 ;  
+    font-size: 55px;
+    font-family: gilroy;
+    margin-bottom: 20px;
+}
+#text p{ 
+    color: antiquewhite; 
+    margin-bottom: 44px;
+    width: 40vw;
+}
+#buy{ 
+    display: flex; 
+    gap: 20px;
+    align-items: center;
+}
+#buy h3{ 
+    font-size: 20px;
+    color: #BE9A76 ; 
+}
+#buy button{ 
+    padding: 12px 48px ;
+    color: black;
+    font-family: gilroy;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    background-color: #BE9A76  ;
+}
+#main img{ 
+    height: 600px;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    filter: brightness(0.7);
+    filter:   drop-shadow(5px 5px 5px #222);
+ 
+   
+}
+
+#page2{ 
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(253, 253, 253);
+    position: relative;
+}
+#page2 #bimg{ 
+    margin-top: 200px;
+    margin-left: 200px;
+    height: 55vh;
+    width: 70vw; 
+    background-image: url(https://rare-gallery.com/uploads/posts/1119166-black-watch-Rolex-brand-luxury-watches-hand-darkness-screenshot-computer-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#page2 #simg{ 
+    position: absolute;
+    height: 35vh;
+    width: 20vw;
+    background-image: url(https://e0.pxfuel.com/wallpapers/59/807/desktop-wallpaper-maate-black-wrist-watch-thumbnail.jpg);
+    background-position: center;
+    background-size: cover;
+    left: 20%;
+    top: 35%;
+    border: 8px  solid #BE9A76 ;
+    
+}
+#text2{ 
+    margin-left: 800px;
+    margin-top: 120px;
+    width: 30vw;
+    text-align: right;
+}
+#text2 h2{ 
+  font-family: gilroy;
+  color: #BE9A76;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+#page2 p{ 
+    font-family: gilroy;
+    font-size: 15px;
+}
